@@ -3,6 +3,8 @@ Express TypeScript Starter
 A simple starter project for building an Express.js application with TypeScript.
 This repo demonstrates how to set up a basic server with Express using TypeScript, providing type safety and a clean developer workflow.
 
+---
+
 🚀 Features
 
 Express server setup with TypeScript
@@ -11,7 +13,7 @@ Strongly typed request/response handling
 
 Easy to extend for APIs or backend services
 
-Development with hot-reload support (using tools like Nodemon & ts-node)
+## Development with hot-reload support (using tools like Nodemon & ts-node)
 
 ❓ Why TypeScript with Express?
 
@@ -25,7 +27,7 @@ Scalability → Easier to maintain large applications with well-defined types an
 
 Cleaner Code → Improved readability and fewer runtime bugs.
 
-👉 This makes TypeScript a solid choice when building production-ready APIs and backend services.
+## 👉 This makes TypeScript a solid choice when building production-ready APIs and backend services.
 
 📦 Installation
 
@@ -49,6 +51,8 @@ Build and run:
 npm run build
 npm start
 
+---
+
 📂 Project Structure
 express-ts-starter/
 ├── src/
@@ -66,7 +70,7 @@ npm run dev – Run in development mode with hot reload
 
 npm run build – Compile TypeScript to JavaScript
 
-npm start – Run the compiled JavaScript server
+## npm start – Run the compiled JavaScript server
 
 🤝 Contributing
 
