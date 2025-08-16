@@ -1,11 +1,9 @@
-Express TypeScript Starter
+## Express TypeScript Starter
 
 A simple starter project for building an Express.js application with TypeScript.
 This repo demonstrates how to set up a basic server with Express using TypeScript, providing type safety and a clean developer workflow.
 
----
-
-🚀 Features
+## 🚀 Features
 
 Express server setup with TypeScript
 
@@ -13,9 +11,9 @@ Strongly typed request/response handling
 
 Easy to extend for APIs or backend services
 
-## Development with hot-reload support (using tools like Nodemon & ts-node)
+Development with hot-reload support (using tools like Nodemon & ts-node)
 
-❓ Why TypeScript with Express?
+## ❓ Why TypeScript with Express?
 
 While Express works perfectly with JavaScript, combining it with TypeScript brings several benefits:
 
@@ -27,9 +25,9 @@ Scalability → Easier to maintain large applications with well-defined types an
 
 Cleaner Code → Improved readability and fewer runtime bugs.
 
-## 👉 This makes TypeScript a solid choice when building production-ready APIs and backend services.
+👉 This makes TypeScript a solid choice when building production-ready APIs and backend services.
 
-📦 Installation
+## 📦 Installation
 
 Clone the repo:
 
@@ -40,7 +38,7 @@ Install dependencies:
 
 npm install
 
-▶️ Running the App
+## ▶️ Running the App
 
 Development mode:
 
@@ -51,9 +49,8 @@ Build and run:
 npm run build
 npm start
 
----
+## 📂 Project Structure
 
-📂 Project Structure
 express-ts-starter/
 ├── src/
 │ └── app.ts # Main Express app file
@@ -64,15 +61,15 @@ express-ts-starter/
 ├── tsconfig.json
 └── README.md
 
-🛠️ Scripts
+## 🛠️ Scripts
 
 npm run dev – Run in development mode with hot reload
 
 npm run build – Compile TypeScript to JavaScript
 
-## npm start – Run the compiled JavaScript server
+npm start – Run the compiled JavaScript server
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! 🎉
 
@@ -88,6 +85,6 @@ Commit and push (git commit -m "Add feature" && git push origin feature-branch)
 
 Open a Pull Request
 
-📜 License
+## 📜 License
 
 This project is open-source and available under the MIT License.
