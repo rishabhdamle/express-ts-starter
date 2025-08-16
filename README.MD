@@ -19,13 +19,13 @@ While Express works perfectly with JavaScript, combining it with TypeScript brin
 
 Type Safety → Catch errors during development instead of runtime.
 
-Better Autocomplete → Your editor provides intelligent suggestions for Express objects like Request and Response.
+Better Autocomplete → Your editor provides intelligent suggestions for objects like Request and Response.
 
 Scalability → Easier to maintain large applications with well-defined types and interfaces.
 
 Cleaner Code → Improved readability and fewer runtime bugs.
 
-This makes TypeScript a solid choice when building production-ready APIs and backend services.
+👉 This makes TypeScript a solid choice when building production-ready APIs and backend services.
 
 📦 Installation
 
@@ -54,6 +54,8 @@ express-ts-starter/
 ├── src/
 │ └── app.ts # Main Express app file
 ├── dist/ # Compiled JavaScript output
+├── examples/ # Example usage, demo routes, or sample configs
+│ └── hello-world.ts
 ├── package.json
 ├── tsconfig.json
 └── README.md
@@ -65,6 +67,22 @@ npm run dev – Run in development mode with hot reload
 npm run build – Compile TypeScript to JavaScript
 
 npm start – Run the compiled JavaScript server
+
+🤝 Contributing
+
+Contributions are welcome! 🎉
+
+If you'd like to contribute:
+
+Fork the repo
+
+Create a new branch (git checkout -b feature-branch)
+
+Make your changes
+
+Commit and push (git commit -m "Add feature" && git push origin feature-branch)
+
+Open a Pull Request
 
 📜 License
 
